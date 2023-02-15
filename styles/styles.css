@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Ahsing Regular";
+  src: url("./font/Ahsing-Regular.otf");
+}
+body {
+  font-family: "Ahsing Regular";
+  background-color: black;
+}
+header nav {
+  width: 100%;
+}
+div.backgroundImage {
+  display: grid;
+  grid-template: row;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5%;
+}
+nav ul li {
+  border: 4px double #a88126;
+  background-color: black;
+  color: #c1ae7c;
+  font-size: 30px;
+  padding: 2%;
+}
+div.backgroundImage2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
+  background-color: #eddcd5;
+  padding: 5%;
+}
+main div.services img {
+  max-width: 200px;
+  border: 10px double ;
+}
+div.services {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 200%;
+  background-color: #a88126;
+  padding: 5%;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  background-color: #a88126;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+footer img {
+  width: 10%;
+  height: 10%;
+  justify-content:right;
+}

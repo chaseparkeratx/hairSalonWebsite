@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Ahsing Regular";
+  src: url("./font/Ahsing-Regular.otf");
+}
+body {
+  font-family: "Ahsing Regular";
+  background-color: #a88126;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  border: 4px dotted #a88126;
+  background-color: black;
+  color: #c1ae7c;
+  font-size: auto;
+}
