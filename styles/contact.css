@@ -1,18 +1,30 @@
-@font-face {
-  font-family: "Ahsing Regular";
-  src: url("./font/Ahsing-Regular.otf");
-}
 body {
-  font-family: "Ahsing Regular";
-  background-color: #a88126;
-}
-nav ul {
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 0.594);
 }
-nav ul li {
-  border: 4px dotted #a88126;
-  background-color: black;
-  color: #c1ae7c;
-  font-size: auto;
+.main {
+  /* border: 3px solid black; */
+  width: 53%;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar {
+  display: inline-block;
+  padding: 125px 0 0;
+}
+button {
+  background-color: #1b2035;
+  color: white;
+  border-radius: 5%;
+  font-size: 20px;
+}
+h1 {
+  font-size: 70px;
+  color: white;
+  background-color: #1b2035;
+  padding: 5%;
 }

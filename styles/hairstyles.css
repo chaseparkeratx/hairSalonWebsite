@@ -28,3 +28,30 @@ h1 {
   background-color: #1b2035;
   padding: 5%;
 }
+.first-row {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 4%;
+  
+}
+.second-row {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 4%;
+  
+}
+.third-row {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 4%;
+  
+}
+.fourth-row {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 4%;
+  
+}
+img {
+  border: 5px solid #5fb3bd;
+}

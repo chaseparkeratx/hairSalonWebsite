@@ -28,3 +28,19 @@ h1 {
   background-color: #1b2035;
   padding: 5%;
 }
+.main-container {
+  display: flex;
+}
+.news-container {
+  width: fit-content;
+}
+.recent-news {
+  border: 5px solid #5fb3bd;
+  background-color: white;
+  width: fit-content;
+  padding: 1%;
+}
+.recent {
+  display: flex;
+  justify-content: center;
+}
